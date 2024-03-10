@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./practice.css">
+</head>
+<body>
+
+    
+      <div class="flexBox">
+        <button onclick = "makeSmaller()">Make box small</button>
+        <button onclick = "makeNormal()">Return to normal</button>
+        <button onclick = "makeLarger()">Make box large</button>
+      </div>
+      <p onmouseover = "makeLarger()" onmouseleave = "makeNormal()" style="text-align: center;" id="myText">I have some text</p>
+      <!-- Instructor reminder: Implement the logic of the function in
+        console first.
+      -->
+      <script>
+        var myTextElement = document.getElementById("myText")
+        function makeSmaller() {
+          myTextElement.style.fontSize = '10px';
+        }
+
+        function makeNormal() {
+          myTextElement.style.fontSize = '16px';
+        }
+        function makeLarger() {
+          myTextElement.style.fontSize = '25px';
+        }
+      </script>
+</body>
+</html>
+
+
