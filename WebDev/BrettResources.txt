@@ -1,0 +1,37 @@
+Brett Cunningham
+  5:05 PM
+Great Resources:
+https://kodekloud.com/
+Traversy Media: https://www.youtube.com/watch?v=UB1O30fR-EE
+
+Fundaments:
+Higher Order Functions
+Data Structures and Algorithms
+context / this (keyword)
+classes / inheritance / OOP
+(edited)
+
+KodeKloudKodeKloud
+DevOps Online Training Courses | KodeKloud
+KodeKloud is the #1 DevOps course provider and helps students learn trending technologies they need to thrive in their career. Learn more about KodeKloud! (458 kB)
+https://kodekloud.com/
+
+YouTubeYouTube | Traversy Media
+HTML Crash Course For Absolute Beginners 
+
+Hack Reactor / Galvanize
+
+
+
+How to get a mentor in this field?
+linkedIn, community
+
+Where do you save your projects besides GitHub and Trello?
+Save it in GitHub
+
+Is there an advantage of working on Microsoft Developer Certifications/Collecting Microsoft Certifications?
+Example: MS-600, AZ-220, DP-900, etc.
+
+
+Sandiego, California, Navy, 9 years, attending college, I have zero knowledge about webdev to learn more by myself. Current job, end user support, not sure if I should keep the job until I finish college, or start looking for webdev opportunities.
+
