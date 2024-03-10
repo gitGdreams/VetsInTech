@@ -1,0 +1,68 @@
+
+
+
+
+
+<div id="menuItems" style="background-color: blanchedalmond;
+block-size: auto; border: solid; width: fit-content; padding: .75em;">
+    <p style="color: saddlebrown;">Pork Menu</p>
+        <ul>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Pork Cutlet Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Sausage Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Pork Belly Curry</a></li>
+        </ul>
+    <p style="color: saddlebrown;">Chicken Menu</p>
+        <ul style="color: saddlebrown">
+            <li><a href="#" style="color: saddlebrown;" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Crispy Chicken Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Butter Chicken Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Chicken Cutlet Curry</a></li>
+        </ul>
+    <p style="color: saddlebrown;">Beef Menu</p>
+        <ul style="color: saddlebrown">
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Hamburger Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Beef Rib Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Beef steak Curry</a></li>
+        </ul>
+</div>
+
+<script type="text/javascript">
+   
+    function changeColor(obj) {
+
+        if (obj.style.color == 'orange') {
+            obj.style.color = 'saddlebrown';
+        } else {
+            obj.style.color = 'orange';
+        }
+    }
+</script>
+
+
+
+
+<div style="background-color: blanchedalmond;
+    block-size: auto; border: solid;" >
+        <div id="feed">
+             <h2>asdfasdf</h2>
+        </div>
+
+        <div id="feedPost">
+            <h2>asdfasfsadf</h2>
+         </div>
+</div>
+
+
+<div id="feed">
+    <h2>Posted Review</h1>
+</div>
+
+<div id="feed_post">
+       
+    <div>
+        <input type="text" name="postFeed" id="postFeed" />
+        <button onclick="addPost()">Post</button>
+        <br>
+        <ul id="mylist"></ul>
+        </br>
+        
+    </div>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Curry 65</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="header">
+        <img id="banner" src="https://media.istockphoto.com/id/1320781421/photo/assorted-of-indian-food-top-view.jpg?s=612x612&w=0&k=20&c=x1d2ceCwEGn2TdJlrOM1Pw7T9_88I2ZienqfMwwdjDQ=" alt="Curry 65">
+    </div>
+    
+    <div id="logoDiv">
+        <div> <img id="pictureSource" src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=834&q=80" alt="Profile Picture"></div>
+        <div> <img id="logo" src="https://images.unsplash.com/photo-1572037604517-4651d6444ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2531&q=80" alt="Curry 65 Logo"></div>
+        <button id="signIn" onclick="signedIn()" ondblclick="signedOut()">Sign In</button>
+    </div>
+
+    <!-- <div id="logOutButton">
+        <button id="logOut">Logout</button>
+    </div> -->
+
+    <div id="menuItems" style="background-color: blanchedalmond;
+block-size: auto; border: solid; width: fit-content; padding: .75em; float: left;">
+    <p style="color: saddlebrown;">Pork Menu</p>
+        <ul>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Pork Cutlet Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Sausage Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Pork Belly Curry</a></li>
+        </ul>
+    <p style="color: saddlebrown;">Chicken Menu</p>
+        <ul style="color: saddlebrown">
+            <li><a href="#" style="color: saddlebrown;" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Crispy Chicken Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Butter Chicken Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Chicken Cutlet Curry</a></li>
+        </ul>
+    <p style="color: saddlebrown;">Beef Menu</p>
+        <ul style="color: saddlebrown">
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Hamburger Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Beef Rib Curry</a></li>
+            <li><a href="#" style="color: saddlebrown" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Beef steak Curry</a></li>
+        </ul>
+    </div>
+
+    <div id="review">
+        <div id="feed"><h2>Posted Review</h1></div>
+
+        <div id="feed_post">
+            <input type="text" name="postFeed" id="postFeed" />
+            <button onclick="addPost()">Post</button>
+            <br>
+            <ul style="list-style: none;" id="mylist"></ul>
+            </br>
+        </div>
+    </div>
+
+<script src="index.js"></script>    
+
+<script type="text/javascript">
+   
+    function changeColor(obj) {
+
+        if (obj.style.color == 'orange') {
+            obj.style.color = 'saddlebrown';
+        } else {
+            obj.style.color = 'orange';
+        }
+        
+    }
+</script>
+
+
+
+<div id="carousel">
+    <button onclick="scrollup()">UP</button>
+    <div id="window">
+        <div id="slider">
+            <img
+          src="img2.jpg"
+          alt="pug"
+            />
+            <img
+          src="img1.jpg"
+          alt="pug"
+            />
+            <img
+          src="img3.jpg"
+          alt="pug"
+            />
+        </div>
+    </div>
+    <button onclick="scrolldown()">DOWN</button>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+<div onmouseover="document.getElementById('myimg').style.justifyContent='center';"
+onmouseout="document.getElementById('myimg').style.display='none';">asd;flkj
+</div>
+<img id="myimg" style="display:none" src="https://media.istockphoto.com/id/1317807818/photo/pork-cutlet-curry-rice.jpg?s=612x612&w=is&k=20&c=ICJmIC6a0KJCOB6jScZ0vYcrntftoszC6ILiVQ_GA8Q=" />
