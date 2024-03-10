@@ -1,0 +1,11 @@
+/* Inside of the exercise.css page: */
+/* style the p to be as close as possible to the h1 */
+p {
+    font-size: 32px;
+    font-weight: bolder;
+}
+/* set a height and width to the image so it is a 200px by 200px square */
+img {
+    height: 200px;
+    width: 200px;
+}

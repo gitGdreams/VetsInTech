@@ -1,0 +1,9 @@
+/* style all divs to have height and width of 200px
+all divs to have a margin-bottom of 10px
+all divs to have a padding-left of 20 px
+all divs to have a border of dotted 2px red */
+div {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border: dotted 2px;
+}
